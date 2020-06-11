@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-app.get("/api/secure/back-end/routes/management/tasks/", (request, response) => {
+app.get("/api/tasks/", (request, response) => {
   response.send("Tasks management!");
 })
 
